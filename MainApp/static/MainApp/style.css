@@ -1,0 +1,102 @@
+h2, nav {
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link, .dropdown-item {
+    color: white;
+}
+
+p, span, div, {
+    font-family: 'Open Sans', sans-serif;
+    font: 1em;
+}
+
+.carousel-item img {
+    height: 300px;
+}
+
+.banner {
+    display: block;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.banner button {
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.banner .banner-title {
+    font-size: 2em;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    top: 25%;
+}
+
+footer {
+    display: block;
+}
+.logo-foot {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.logo-foot img {
+    margin: auto;    
+    display: block;
+}
+.social-media ul {
+    margin: 0 !important;
+    padding: 0;
+    list-style: none;
+}
+
+.social-media ul li {
+    margin-right: 10px;
+    display: inline;
+}
+.social-media ul li img {
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+}
+hr {
+    text-align: left;
+    width: 160px;
+    border-top: 3px solid #e5e5e5;
+}
+.quick-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.quick-links ul li {
+    margin: 0;
+    padding: 0;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-item img {
+        height: 600px;
+    }
+    
+    .banner {
+        display: block;
+        height: 500px;
+    }
+    
+    .banner .banner-title {
+        font-size: 3.5em;
+    }
+    
+  }
+  
